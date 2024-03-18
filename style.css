@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #080808;
+}
+.container-nav1 {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-n1left {
+    display: flex;
+}
+
+.container-n1left a {
+    color: #fff;
+    text-decoration: none;
+    font-family:'Gill Sans';
+    font-size: 2rem;
+    font-weight: 900;
+    transition: all 0.3s ease-out;
+}
+
+.container-n1left a:hover {
+    transform: scale(1.020);
+    letter-spacing: 1px;
+}
+
+.container-n1right {
+    display: flex;
+    gap: 2rem;
+}
+
+.container-n1right a {
+    color: #fff;
+    text-decoration: none;
+    font-family:'Segoe UI';
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s ease-out;
+}
+
+.container-n1right a:hover {
+    transform: scale(1.020);
+    letter-spacing: 2px;
+}
+
+.container-page1 {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
